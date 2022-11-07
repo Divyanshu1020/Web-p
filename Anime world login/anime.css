@@ -39,7 +39,7 @@ main{
     flex-direction: column;
     justify-content: center ;
     align-items: center;
-    width: 400px;
+    max-width: 400px;
     margin: 30px;
     padding: 16px;
 
