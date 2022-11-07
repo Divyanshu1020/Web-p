@@ -15,7 +15,7 @@ body {
     background: url(./image/bg.jpg) no-repeat;
     
     background-size: cover;
-    background-position:fixed ;
+    background-attachment: fixed;
 }
 main{
     height: 100vh;
@@ -24,11 +24,16 @@ main{
     flex-direction: column;
     justify-content: center ;
     align-items: center;
+    padding: 30px;
 }
 .center{
-
-    border: 5px solid black;
+    text-align: center;
     position: fixed;
+    flex-wrap: wrap;
+
+    border: 5px solid #640178; 
+    background-color: antiquewhite;
+    
     display: flex;
     flex-direction: column;
     justify-content: center ;
@@ -47,22 +52,24 @@ main{
 
 
 form input , #dropdown{
+
+    color:  #640178;
     padding: 12px;
     margin: 5px 0;
     width: 215px;
     font-size: 16px;
     text-align: center;
     outline: none;
-    border: 2px solid hsl(195deg 2% 51%);
+    border: 2px solid  #640178;
     border-radius: 8px;
     background: transparent;
-    color: hsl(195deg 2% 51%);
+    color:  #640178;
 }
 
 #submit{
     cursor: pointer;
     border-radius: 8px;
-    background-color:#ffdcf0;
+    background-color: #640178;
     text-shadow: 1px black;
     color: #fff;
     outline: none;
